@@ -1,5 +1,60 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  position: fixed;
+}
+.header__logo {
+  height: 125px;
+  width: 125px;
+  cursor: pointer;
+}
+.header__nav {
+  .nav-item {
+    color: $gray;
+    font-size: $standart;
+    font-weight: bold;
+    padding: 10px;
+    margin: 12px;
+  }
+  .active {
+    color: $red;
+    border-bottom: 5px $red solid;
+  }
+}
+.header__lk {
+  display: flex;
+  flex-direction: center;
+  .lk-autorisation {
+    background-color: $red;
+    font-size: $standart;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .lk-basket {
+    padding: 5px 8px;
+    border: 2px #000 solid;
+    border-radius: 50%;
+    position: relative;
+    span {
+      position: absolute;
+      right: 0%;
+      top:-10%;
+      color: #fff;
+      background: $red;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
 }

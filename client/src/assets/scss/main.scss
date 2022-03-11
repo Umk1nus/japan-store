@@ -1,4 +1,10 @@
-@import './header.scss';
+$gray:#3B3838;
+$red: #C13C6B;
+$green: #7EE1CA;
+$blue: #4CE0FF;
+
+$standart: 24px;
+
 
 html, body, div, form, fieldset, legend, label
 {
@@ -22,7 +28,14 @@ th, td
 h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
 a {
   text-decoration: none;
-  color: #3B3838;
+  color: $gray;
 }
  
 img { border: 0; }
+
+.container {
+  height: 4000px;
+  background: $blue;
+}
+
+@import './header.scss';
