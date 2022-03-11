@@ -1,9 +1,13 @@
-<script setup>
-</script>
-
 <template>
-  <h1>бера</h1>
+  <div class="container">
+    <Header/>
+  </div>
 </template>
+
+<script setup>
+
+import Header from './components/Header.vue'
+</script>
 
 <style>
 
