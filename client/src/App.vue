@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Header/>
-    content
+    <router-view />
   </div>
 </template>
 
