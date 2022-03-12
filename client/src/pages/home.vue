@@ -1,13 +1,8 @@
 <template>
-  <h1>Главная</h1>
+  <content class="content">
+    <h1>Главная</h1>
+  </content>
 </template>
 
-<script>
-export default {
 
-}
-</script>
 
-<style>
-
-</style>

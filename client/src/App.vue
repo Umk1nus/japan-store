@@ -5,9 +5,19 @@
   </div>
 </template>
 
-<script setup>
+<script>
+import Header from '@/components/Header.vue'
 
-import Header from './components/Header.vue'
+export default {
+  components: {Header},
+    data() {
+    return {
+      // site: site.home,
+      // title: title,
+      // links: links
+    }
+  }
+}
 </script>
 
 <style>
