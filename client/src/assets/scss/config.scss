@@ -35,6 +35,7 @@ html, body, div, form, fieldset, legend, label {
 }
 
 .container {
-  height: 4000px;
   background: #fff;
+  display: flex;
+  flex-direction: column;
 }

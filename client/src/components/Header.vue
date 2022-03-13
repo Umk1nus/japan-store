@@ -10,7 +10,7 @@
     </nav>
     <div class="header__lk">
       <button class="lk-autorisation">Войти</button>
-      <a href="/" class="lk-basket"><img src="../assets/img/icon/basket.png" alt=""><span>1</span></a>
+      <a href="/" class="lk-basket"><img src="@/assets/img/icon/basket.png" alt=""><span>1</span></a>
     </div>
   </header>
 </template>

@@ -2,6 +2,7 @@
   <div class="container">
     <Header/>
     <router-view />
+    <!-- <Store/> -->
     <Footer/>
   </div>
 
@@ -15,9 +16,6 @@ export default {
   components: {Header, Footer},
     data() {
     return {
-      // site: site.home,
-      // title: title,
-      // links: links
     }
   }
 }
