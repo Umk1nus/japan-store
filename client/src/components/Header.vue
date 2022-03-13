@@ -3,7 +3,7 @@
     <img src="../assets/img/logo.svg" alt="" class="header__logo">
     <nav class="header__nav">
       <ul>
-        <li v-for="link in linksHeader" :key="link.alias" class="nav-item">
+        <li v-for="link in linksHeader" :key="link.alias" class="nav-item active">
           <router-link :to="link.url" class="nav-link">{{link.title}}</router-link>
         </li>
       </ul>
