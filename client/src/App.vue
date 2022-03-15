@@ -2,7 +2,6 @@
   <div class="container">
     <Header/>
     <router-view />
-    <!-- <Store/> -->
     <Footer/>
   </div>
 
