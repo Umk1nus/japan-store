@@ -7,6 +7,7 @@ import shopPage from "@/pages/shop.vue"
 import reviewsPage from "@/pages/reviews.vue"
 import aboutPage from "@/pages/about.vue"
 import notFoundPage from "@/pages/notFound.vue"
+import cardPage from "@/pages/cardPage.vue"
 
 
 
@@ -32,6 +33,11 @@ const routers = createRouter({
       path: '/about',
       name: 'About',
       component: aboutPage,
+    },
+    {
+      path: '/:cardPage',
+      name: 'cardPage',
+      component: cardPage,
     },
     {
       path: '/:CatchAll(.*)',
