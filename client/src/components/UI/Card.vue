@@ -13,7 +13,28 @@
 export default {
   data() {
     return {
-
+      props: {
+        title: {
+          type: String,
+          require: true
+        },
+        title: {
+          type: String,
+          require: true
+        },
+        title: {
+          type: String,
+          require: true
+        },
+        title: {
+          type: String,
+          require: true
+        },
+        title: {
+          type: String,
+          require: true
+        }
+      }
     }
   }
 }
