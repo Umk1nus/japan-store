@@ -1,6 +1,8 @@
 <template>
   <div class="store">
-    <Card :title="card.title" :price="card.price" :img="card.img" :alias="card.alias"/>
+    <div class="card-wrapper" v-for="card in cards" :key="card.id">
+      <Card :title="card.title" :price="card.price" :img="card.img" :link="`/${card.alias}`"/>
+    </div>   
   </div>
 </template>
 

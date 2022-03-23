@@ -1,7 +1,10 @@
+.card-wrapper {
+  max-width: 400px;
+  width: 100%;
+}
 .card {
   height: 500px;
   margin: 20px;
-  max-width: 400px;
   width: 100%;
   background-color: #fff;
   color: $darkgray;
