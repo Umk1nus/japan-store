@@ -5,35 +5,9 @@
         <slot></slot>
       </div>
       <div class="review__content-info">
-        <h2 class="review__content-info-title">Даниил, <span>20</span></h2>
-        <div class="review__content-info-description">Очень быстрая доставка и качественный товар.
-          Буду заказывать еще.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="review">
-    <div class="review__content">
-      <div class="review__content-img">
-        <slot></slot>
-      </div>
-      <div class="review__content-info">
-        <h2 class="review__content-info-title">Илья, <span>21</span></h2>
-        <div class="review__content-info-description">Очень быстрая доставка и качественный товар.
-          Буду заказывать еще.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="review">
-    <div class="review__content">
-      <div class="review__content-img">
-        <slot></slot>
-      </div>
-      <div class="review__content-info">
-        <h2 class="review__content-info-title">Кирилл, <span>20</span></h2>
-        <div class="review__content-info-description">Очень быстрая доставка и качественный товар.
-          Буду заказывать еще.
+        <h2 class="review__content-info-title">{{name}}, <span>{{age}}</span></h2>
+        <div class="review__content-info-description">
+          {{description}}
         </div>
       </div>
     </div>
@@ -42,7 +16,20 @@
 
 <script>
 export default {
-
+  props: {
+    name: {
+      type: String,
+      required: true
+    },
+    age: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+  }
 }
 </script>
 
