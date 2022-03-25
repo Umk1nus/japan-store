@@ -20,17 +20,20 @@
     background-color: $darkgray;
     color: #fff;
     border-bottom: 5px $blue solid;
-    .block__info-title {
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .block__info {
-      display: flex;
-      flex-direction: column;
-      .block__info-link {
-        color: #fff;
-        margin: 5px 0;
-        font-weight: 400;
+    .footer__content-block {
+      padding: 20px 30px;
+      .block__info-title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .block__info {
+        display: flex;
+        flex-direction: column;
+        .block__info-link {
+          color: #fff;
+          margin: 5px 0;
+          font-weight: 400;
+        }
       }
     }
   }
