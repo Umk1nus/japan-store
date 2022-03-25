@@ -1,6 +1,8 @@
 <template>
   <div class="reviews">
-    <Review/>
+    <Review>
+      <img src="@/assets/img/avatar/crocodile.svg" alt="" class="review__content-img-avatar">
+    </Review>
   </div>
 </template>
 
