@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Card from '@/components/UI/Card.vue'
-import cards from '@/seeders/cards.js'
+import Card from '@/components/UI/CardStore.vue'
+import cards from '@/seeders/cardsStore.js'
 export default {
   components:{Card},
   data() {

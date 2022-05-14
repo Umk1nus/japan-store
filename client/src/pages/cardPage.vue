@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import cards from '@/seeders/cards.js'
+import cards from '@/seeders/cardsStore.js'
 export default {
   data() {
     return {

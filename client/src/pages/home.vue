@@ -1,11 +1,13 @@
 <template>
-  <content class="content">
-    <h1>Главная</h1>
-  </content>
+  <Store/>
 </template>
 
 <script>
+
+import Store from "@/components/Store.vue"
+
 export default{
+  components: {Store},
   data() {
     return {
       
