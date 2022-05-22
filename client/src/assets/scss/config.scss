@@ -39,3 +39,37 @@ html, body, div, form, fieldset, legend, label {
   display: flex;
   flex-direction: column;
 }
+
+//background
+.blue-bg {
+  background-color: $blue;
+}
+.gray-bg {
+  background-color: $gray;
+}
+.darkgray-bg {
+  background-color: $darkgray;
+}
+.red-bg {
+  background-color: $red;
+}
+.green-bg {
+  background-color: $green;
+}
+
+//text
+.blue-text {
+  color: $blue;
+}
+.gray-text {
+  color: $gray;
+}
+.darkgray-text {
+  color: $darkgray;
+}
+.red-text {
+  color: $red;
+}
+.green-text {
+  color: $green;
+}
