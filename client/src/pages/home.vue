@@ -41,18 +41,18 @@
           </div>
         </div>
         <div class="company-info">
-          <h2 class="company-info__title">
-            Мы ради приветствовать Вас в интернет-Магазине нашей компании!
+          <h2 class="company-info__title gray-text">
+            Мы рады приветствовать Вас в интернет-магазине нашей компании!
           </h2>
-          <p class="company-info__content">
+          <p class="company-info__content gray-text">
             Наша  компания была основана в 2021 году,
             занимается импортом и реализацией продуктов культуры из Японии
           </p>
-          <button class="company-info__btn">Подробнее</button>
+          <router-link to="/about" class="company-info__btn red-text">Подробнее</router-link>
         </div>
-        <div class="down-company">
+      </div>
+      <div class="down-company">
           
-        </div>
       </div>
     </div>
     <Store/>

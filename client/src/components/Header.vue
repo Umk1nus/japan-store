@@ -13,7 +13,7 @@
       <a href="/" class="lk-basket"><img src="@/assets/img/icon/basket.png" alt=""><span>1</span></a>
     </div>
   </header>
-  <Authorization v-if="modal" :modal="modal"/>
+  <!-- <Authorization v-if="modal" :modal="modal"/> -->
 </template>
 
 <script>
