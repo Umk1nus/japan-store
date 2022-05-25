@@ -25,12 +25,12 @@ export const store = createStore({
       { id: 6, title: 'Стикеры Ахегао', alias: 'ahegao', price: '300 руб', img: 'src/assets/img/product/ahegaocard.png'},
     ],
     company: [
-      {id: 1, title: 'Оплата картой и наличными', img: 'src/assets/img/icon/mapCompany.svg'},
-      {id: 2, title: 'Мы работаем круглосуточно', img: 'serc/assets/img/icon/storeCompany.svg'},
-      {id: 3, title: 'Отслеживайте ваш заказ', img: 'src/assets/img/icon/mapCompany.svg'},
-      {id: 4, title: 'У нас быстрая доставка', img: 'src/assets/img/icon/packageCompany.svg'},
-      {id: 5, title: 'Оставляйте свои отзывы', img: 'src/assets/img/icon/reviewCompany.svg'},
-      {id: 6, title: 'Вам доступны акции', img: 'src/assets/img/icon/boxCompany.svg'}
+      {id: 1, title: 'Оплата картой и наличными', img: 'src/assets/img/icon/cardCompany.svg', class: 'blue-bg'},
+      {id: 2, title: 'Мы работаем круглосуточно', img: 'src/assets/img/icon/storeCompany.svg', class: 'red-bg'},
+      {id: 3, title: 'Отслеживайте ваш заказ', img: 'src/assets/img/icon/mapCompany.svg', class: 'green-bg'},
+      {id: 4, title: 'У нас быстрая доставка', img: 'src/assets/img/icon/packageCompany.svg', class: 'red-bg'},
+      {id: 5, title: 'Оставляйте свои отзывы', img: 'src/assets/img/icon/reviewCompany.svg', class: 'green-bg'},
+      {id: 6, title: 'Вам доступны акции', img: 'src/assets/img/icon/boxCompany.svg', class: 'blue-bg'}
     ]
 
   },
@@ -40,7 +40,14 @@ export const store = createStore({
     },
     getManagment(state) {
       return state.managment
+    },
+    getCards(state) {
+      return state.cards
+    },
+    getCompany(state) {
+      return state.company
     }
+
   },
   mutations: {},
   actions: {},

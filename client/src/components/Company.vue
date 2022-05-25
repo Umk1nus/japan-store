@@ -2,40 +2,10 @@
   <div class="company">
       <div class="up-company">
         <div class="company-blocks">
-          <div class="company-blocks__block blue-bg">
-            <img src="@/assets/img/icon/cardCompany.svg" alt="" class="company-blocks__block-img">
+          <div class="company-blocks__block" :class="company.class" v-for="company in getCompany" :key="company.id">
+            <img :src="company.img" alt="" class="company-blocks__block-img">
             <p class="company-blocks__block-title">
-              Оплата картой и наличными
-            </p>
-          </div>
-          <div class="company-blocks__block red-bg">
-            <img src="@/assets/img/icon/storeCompany.svg" alt="" class="company-blocks__block-img">
-            <p class="company-blocks__block-title">
-              Мы работаем круглосуточно
-            </p>
-          </div>
-          <div class="company-blocks__block green-bg">
-            <img src="@/assets/img/icon/mapCompany.svg" alt="" class="company-blocks__block-img">
-            <p class="company-blocks__block-title">
-              Отслеживайте ваш заказ
-            </p>
-          </div>
-          <div class="company-blocks__block red-bg">
-            <img src="@/assets/img/icon/packageCompany.svg" alt="" class="company-blocks__block-img">
-            <p class="company-blocks__block-title">
-              У нас быстрая доставка
-            </p>
-          </div>
-          <div class="company-blocks__block green-bg">
-            <img src="@/assets/img/icon/reviewCompany.svg" alt="" class="company-blocks__block-img">
-            <p class="company-blocks__block-title">
-              Оставляйте свои отзывы
-            </p>
-          </div>
-          <div class="company-blocks__block blue-bg">
-            <img src="@/assets/img/icon/boxCompany.svg" alt="" class="company-blocks__block-img">
-            <p class="company-blocks__block-title">
-              Вам доступны акции
+              {{company.title}}
             </p>
           </div>
         </div>
@@ -58,7 +28,11 @@
 
 <script>
 export default {
-
+  computed: {
+    getCompany() {
+      return this.$store.getters.getCompany
+    }
+  },
 }
 </script>
 
