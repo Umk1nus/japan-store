@@ -15,6 +15,7 @@
     "typescript": "latest"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "sass": "^1.69.7"
   }
 }
